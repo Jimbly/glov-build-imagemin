@@ -1,0 +1,2 @@
+These images are actual game textures from Worlds FRVR used for testing purposes, and cannot be redistributed.
+Copyright (c) 2023 FRVR, all rights reserved

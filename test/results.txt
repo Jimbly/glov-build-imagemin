@@ -1,0 +1,49 @@
+all, 48s, however, images are unusable as GPU textures
+  button.png: 21975 => 3259 bytes (14.8%), 1226ms
+  diffuse.png: 13099 => 2744 bytes (20.9%), 4830ms
+  diffusearray.png: 725138 => 237068 bytes (32.7%), 47511ms
+  locked.png: 323 => 248 bytes (76.8%), 94ms
+  mask.png: 11338 => 3470 bytes (30.6%), 1299ms
+  normal.png: 372856 => 22028 bytes (5.9%), 459ms
+  normalatlas.png: 1331267 => 248125 bytes (18.6%), 29536ms
+7 file(s): 2475996 => 516942 bytes (20.9%)
+
+opti(def)+zopfli, 87s
+  button.png: 21975 => 17687 bytes (80.5%), 3472ms
+  diffuse.png: 13099 => 5926 bytes (45.2%), 541ms
+  diffusearray.png: 725138 => 478234 bytes (66.0%), 88057ms
+  locked.png: 323 => 239 bytes (74.0%), 81ms
+  mask.png: 11338 => 3768 bytes (33.2%), 407ms
+  normal.png: 372856 => 308182 bytes (82.7%), 759ms
+  normalatlas.png: 1331267 => 855893 bytes (64.3%), 87777ms
+7 file(s): 2475996 => 1669929 bytes (67.4%)
+
+opti(max)+zopfli, 136s
+  button.png: 21975 => 17687 bytes (80.5%), 6542ms
+  diffuse.png: 13099 => 5926 bytes (45.2%), 824ms
+  diffusearray.png: 725138 => 478234 bytes (66.0%), 125053ms
+  locked.png: 323 => 239 bytes (74.0%), 97ms
+  mask.png: 11338 => 3768 bytes (33.2%), 672ms
+  normal.png: 372856 => 308182 bytes (82.7%), 2949ms
+  normalatlas.png: 1331267 => 855893 bytes (64.3%), 134834ms
+7 file(s): 2475996 => 1669929 bytes (67.4%)
+
+optipng, 10.5s
+  button.png: 21975 => 20425 bytes (92.9%), 672ms
+  diffuse.png: 13099 => 2744 bytes (20.9%), 92ms
+  diffusearray.png: 725138 => 525871 bytes (72.5%), 7014ms
+  locked.png: 323 => 273 bytes (84.5%), 23ms
+  mask.png: 11338 => 4149 bytes (36.6%), 72ms
+  normal.png: 372856 => 313164 bytes (84.0%), 217ms
+  normalatlas.png: 1331267 => 943488 bytes (70.9%), 10408ms
+7 file(s): 2475996 => 1810114 bytes (73.1%)
+
+zopfli, 81s,
+  button.png: 21975 => 17687 bytes (80.5%), 2817ms
+  diffuse.png: 13099 => 6118 bytes (46.7%), 469ms
+  diffusearray.png: 725138 => 478234 bytes (66.0%), 81088ms
+  locked.png: 323 => 239 bytes (74.0%), 64ms
+  mask.png: 11338 => 3768 bytes (33.2%), 352ms
+  normal.png: 372856 => 308182 bytes (82.7%), 555ms
+  normalatlas.png: 1331267 => 855893 bytes (64.3%), 77463ms
+7 file(s): 2475996 => 1670121 bytes (67.5%)

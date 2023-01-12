@@ -1,0 +1,33 @@
+{
+  "name": "glov-build-imagemin",
+  "version": "1.0.0",
+  "description": "imagemin task processor for glov-build",
+  "main": "index.js",
+  "keywords": [
+    "glov-build",
+    "glov",
+    "glovjs",
+    "imagemin"
+  ],
+  "author": "Jimb Esser (https://github.com/Jimbly)",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Jimbly/glov-build-imagemin.git"
+  },
+  "scripts": {
+    "test": "nodemon test/general.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "imagemin": "^8.0.1"
+  },
+  "peerDependencies": {
+    "glov-build": ">= 1.0.35"
+  },
+  "devDependencies": {
+    "imagemin-optipng": "^8.0.0",
+    "imagemin-pngquant": "^9.0.2",
+    "imagemin-zopfli": "^7.0.0",
+    "nodemon": "^2.0.20"
+  }
+}
